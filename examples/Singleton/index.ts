@@ -21,9 +21,9 @@ function clientCode() {
     const s2 = Singleton.getInstance();
 
     if (s1 === s2){
-        console.log('Все выерно, сингло тон для них общий');
+        console.log('works');
     }else{
-        console.log('Странно! А почему они не равны');
+        console.log('don\'t works');
     }
 }
 
